@@ -1,0 +1,17 @@
+li {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    vertical-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+a {
+    color: rgb(65, 158, 255);
+    text-decoration: none;    
+}
