@@ -1,71 +1,171 @@
-<!DOCTYPE>
-<html>
-<head>
-    <title>Alison Tong</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <p class="bordered" id="head">Welcome</p>
-    <div class="divider"></div>
-</head>
-<body>
-    <div id="navBar">
-        <a href="index.html">
-        <p class="bordered">Home</p>
-        </a>
-        <a href="resume.html">
-        <p class="bordered">Resume</p>
-        </a>
-        <a href="contact.html">
-        <p class="bordered">Contact</p>
-        </a>
-    </div>
-    <br>
-    <img id="profilePic" width="300px" height="300px" src="AlisonTCropped.png">
-    <br>
-    <div class="textContainer">
-        <p class="bordered">About Me</p>
-        <p>
-            My name is Alison and I'm a computer science specialist student at U of T.  
-            I found my love for computer science when I was in high school, taking my first course on the subject where 
-            I greatly enjoyed developing the final project with a team of friends.  
-            I've always loved learning how things work and using that knowledge in my own applications.
-        </p>
-    </div>
-    <br><br><br>
-    <div class="textContainer">
-        <p class="bordered">What I Do</p>
-        <p>
-            In my time outside of academics, I like to work on personal projects to expand my skillset outside of 
-            what the university offers.  This includes creating games, experimenting with new tools, photography and 
-            graphic design.  Additionally, I am part of the Dana Project developer team and I hold a position of 
-            Ads and Publicity Director at Innis Residence.
-        </p>
-    </div>
-    <br><br><br>
-    <div class="textContainer">
-        <p class="bordered">What I've Done</p>
-        <p>
-            Some of my programming-related personal projects can be found on my GitHub.
-            Outside of computer science, I've also learned the basics of video production, photography and 
-            vector design.
-        </p>
-    </div>
-    <br><br><br>
-    <div class="textContainer">
-            <p class="bordered">What I Want To Do</p>
-            <p>
-                I would like to learn about and work with a wide variety of computer science topics, including web 
-                development, mobile development and game design.  That being said, I am always excited to take on 
-                new challenges in other areas of computer science.
-            </p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alison Tong</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Link maxcdn, jquery and bootstrap sourced from w3cshools -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Navbar from w3schools-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#head">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                </ul>
+            </div>
+        </nav>
+
+        <div id="head" class="row">
+            <div class="col-sm-6">
+                <h1 class="bordered">Welcome</h1>
+            </div>
+            <div class="col-sm-6">
+                <br><br>
+                <p>Personal website of Alison Tong.</p>
+            </div>
         </div>
-        <br><br><br>
-    <a href="https://github.com/AlisonT1230" target="_blank">
-    <img src="GitHub-Mark-Light-64px.png" width="30px" height:"30px"/>
-    </a>
-    <br>
-    <p>Check out my github!</p>
-    <br>
-</body>
+
+        <div class="container-fluid">
+            <div id="about-me"class="row c1">
+                <div class="col-sm-4">
+                    <h1>About Me</h1>
+                    <img id="profile-pic" src="AlisonTCropped.png" class="img-rounded" alt="Me!">
+                </div>
+                <div class="col-sm-8">
+                    <p>My name is Alison and I'm a computer science specialist student at U of T. I found my love for computer science when I was in high school, taking my first course on the subject where I greatly enjoyed developing the final project with a team of friends. I've always loved learning how things work and using that knowledge in my own applications.</p>
+                    <p>In my time outside of academics, I like to work on personal projects to expand my skillset outside of what the university offers. This includes creating games, experimenting with new tools, practicing photography and exploring graphic design. Additionally, I am part of the Dāna Project developer team, the Innis College InSIGHT mentorship team, and I hold a position of Ads and Publicity Director at Innis Residence.</p>
+                    <p>I would like to learn about and work with a wide variety of computer science topics, including web development, mobile development and game design. That being said, I am always excited to take on new challenges in other areas of computer science and broaden my desire to learn.</p>
+                </div>
+            </div>
+
+            <div id="resume" class="row c2">
+                <div class="col-sm-4">
+                    <h1>Skills</h1>
+                    <span class="glyphicon glyphicon-wrench"></span>
+                </div>
+                <div class="col-sm-8" style="display: inline;">
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Verilog</li>
+                    </ul>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>InDesign</li>
+                        <li>GIMP</li>
+                        <li>Inkscape</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row c3">
+                <div class="col-sm-4">
+                    <h1>Accomplishments</h1>
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                </div>
+                <div class="col-sm-8">
+                    <ul>
+                        <li>CSSU Junior Rep in 2015-2016</li>
+                        <li>Acquired skills and contributed to a mobile application</li>
+                    </ul>                    
+                </div>
+            </div>
+
+            <div class="row c1">
+                <div class="col-sm-4">
+                    <h1>Experience</h1>
+                    <span class="glyphicon glyphicon-education"></span>
+                </div>
+                <div class="col-sm-8">
+                    <ul>
+                        <li>Developer at <a href="http://danaproject.org/" target="_blank">Dāna Project</a> (May 2017 - Present)</li>
+                        <ul>
+                            <li>Writing RESTful API code and tests</li>
+                            <li>Utilize the SQLAlchemy ORM, developing & testing database models</li>
+                            <li>Using Angular and Ionic, working with MockBackend</li>
+                            <li>Collaborating over GitHub with a team of developers, using Git version control</li>
+                        </ul>
+                    </ul>                    
+                </div>
+            </div>
+
+            <div class="row c2">
+                <div class="col-sm-4">
+                    <h1>Education</h1>
+                    <span class="glyphicon glyphicon-wrench"></span>
+                </div>
+                <div class="col-sm-8">
+                    <ul>
+                        <li>3rd year computer science student at University of Toronto</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row c3">
+                <div class="col-sm-4">
+                    <h1>Addional Information</h1>
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                </div>
+                <div class="col-sm-8">
+                    <ul>
+                        <li>Innis Residence Council Ads and Publicity Director</li>
+                        <li>Captain of U of T Innis College intramural womens basketball team</li>
+                        <li>Mentor for the Innis College InSIGHT Mentorship Program</li>
+                        <li>Player on the U of T Innis College intramural coed basketball team</li>
+                        <li>Member of the Innis College choir</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="contact" class="row c1">
+                <div class="col-sm-4">
+                    <h1>Contact Information</h1>
+                    <span class="glyphicon glyphicon-envelope"></span>
+                </div>
+                <div class="col-sm-8">
+                    <p>The fastest way to reach me is via email or cell:</p>
+                    <p>Email:&nbsp&nbsp alison.tong@mail.utoronto.ca</p>
+                    <p>Cell:&nbsp&nbsp 647-378-0955</p>
+                    <p>Let's get in touch!</p>
+                </div>
+            </div>
+
+            <div class="row foot">    
+                <a href="https://github.com/AlisonT1230" target="_blank">
+                <img id="gitmark" src="GitHub-Mark-Light-64px.png" width="30px" height:"30px"/>
+                </a>
+                <br><br>
+                <p style="color: white;">Check out my github!</p>
+            </div>
+        </div>
+    </body>
 </html>
