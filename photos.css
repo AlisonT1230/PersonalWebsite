@@ -1,0 +1,9 @@
+.carousel {
+    max-height: 65% !important;
+    max-width: 65% !important;
+    margin: auto;
+}
+
+.carousel-inner {
+    pointer-events: none;
+}
